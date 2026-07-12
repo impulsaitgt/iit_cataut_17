@@ -8,7 +8,7 @@
         <field name="arch" type="xml">
             <field name="categ_id" position="after">
                 <field name="marca_id"/>
-                <field name="caa_ref"/>
+                <field name="caa_ref" invisible="1"/>
                 <field name="caa_serie"/>
                 <field name="caa_nota"/>
                 <field name="caa_observacion"/>
